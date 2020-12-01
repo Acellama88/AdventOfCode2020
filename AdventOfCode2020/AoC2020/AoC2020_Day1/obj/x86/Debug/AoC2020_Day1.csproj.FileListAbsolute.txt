@@ -1,0 +1,7 @@
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\bin\Debug\AoC2020_Day1.exe
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\bin\Debug\AoC2020_Day1.pdb
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\obj\x86\Debug\AoC2020_Day1.Form1.resources
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\obj\x86\Debug\AoC2020_Day1.Properties.Resources.resources
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\obj\x86\Debug\AoC2020_Day1.csproj.GenerateResource.Cache
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\obj\x86\Debug\AoC2020_Day1.exe
+C:\Users\corysch\Documents\Visual Studio 2010\Projects\AdventOfCode2020\AoC2020\AoC2020_Day1\obj\x86\Debug\AoC2020_Day1.pdb
