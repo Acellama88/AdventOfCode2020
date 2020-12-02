@@ -22,8 +22,8 @@ namespace AoC2020_Day2
             string[] values = puzzleInput.Split(',');
             foreach (string val in values)
             {
-                string[] passVal = val.Split(new char[] { '-', ' ', ':' });
-                input.Add(new Password(Convert.ToInt32(passVal[0]), Convert.ToInt32(passVal[1]), passVal[2][0], passVal[4])); //it is passVal[4] because there is an empty string in [3]
+                string[] passVal = val.Split(new char[] { '-', ' ', ':' }, StringSplitOptions.RemoveEmptyEntries);
+                input.Add(new Password(Convert.ToInt32(passVal[0]), Convert.ToInt32(passVal[1]), passVal[2][0], passVal[3]));
             }
         }
 
