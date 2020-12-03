@@ -1,0 +1,10 @@
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\bin\Debug\AoC2020_Day2.exe.config
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\bin\Debug\AoC2020_Day2.exe
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\bin\Debug\AoC2020_Day2.pdb
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.csprojAssemblyReference.cache
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.Form1.resources
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.Properties.Resources.resources
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.csproj.GenerateResource.cache
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.csproj.CoreCompileInputs.cache
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.exe
+C:\Users\acell\Source\Repos\coryschw\AdventOfCode2020\AdventOfCode2020\AoC2020\AoC2020_Day2\obj\Debug\AoC2020_Day2.pdb
