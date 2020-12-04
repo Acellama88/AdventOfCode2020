@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\AdventOfCode2020",
-    "\\AdventOfCode2020\\AoC2020"
+    "\\AdventOfCode2020\\AoC2020",
+    "\\AdventOfCode2020\\AoC2020\\AoC2020_Day3"
   ],
-  "SelectedNode": "\\AdventOfCode2020\\AoC2020\\AoC2020.sln",
+  "SelectedNode": "\\AdventOfCode2020\\AoC2020\\AoC2020_Day3\\Form1.cs",
   "PreviewInSolutionExplorer": false
 }
