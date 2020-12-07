@@ -28,44 +28,21 @@ namespace AoC2020_Day7
 
         private void button1_Click(object sender, EventArgs e)
         {
-            foreach(string line in lines)
-            {
-                string[] tokens = line.Split(new string[] { "contain", "," }, StringSplitOptions.RemoveEmptyEntries);
-                string bagName = tokens[0].Split(' ')[0] + " " + tokens[0].Split(' ')[1];
-
-                Bag mainBag = allBags.Find(x => x.Name.Equals(bagName));
-                if(mainBag == null)
-                {
-                    mainBag = new Bag(bagName);
-                    allBags.Add(mainBag);
-                }
-
-                for(int i = 1; i < tokens.Length; i++)
-                {
-                    if (tokens[i].Contains("no other bag"))
-                        break;
-                    string[] bagTokens = tokens[i].Split(new string[] { " " }, StringSplitOptions.RemoveEmptyEntries);
-                    int num = Convert.ToInt32(bagTokens[0]);
-                    string inBag = bagTokens[1] + " " + bagTokens[2];
-                    Bag getBag = allBags.Find(x => x.Name.Equals(inBag));
-                    if(getBag == null)
-                    {
-                        getBag = new Bag(inBag);
-                        allBags.Add(getBag);
-                    }
-
-                    mainBag.addBag(num, getBag);
-                    getBag.addContainer(mainBag);
-                }
-                //Parse All Containers
-            }
-
+            parseIt();
             finalBags = new List<Bag>();
             Bag shiny = allBags.Find(x => x.Name.Equals("shiny gold"));
             MessageBox.Show("" + countBags(shiny));
         }
 
         private void button2_Click(object sender, EventArgs e)
+        {
+            parseIt();
+            finalContainers = new List<Bag>();
+            Bag shiny = allBags.Find(x => x.Name.Equals("shiny gold"));
+            MessageBox.Show("" + (countTotalBags(shiny) - 1));
+        }
+
+        private void parseIt()
         {
             foreach (string line in lines)
             {
@@ -98,10 +75,6 @@ namespace AoC2020_Day7
                 }
                 //Parse All Containers
             }
-
-            finalContainers = new List<Bag>();
-            Bag shiny = allBags.Find(x => x.Name.Equals("shiny gold"));
-            MessageBox.Show("" + (countTotalBags(shiny) - 1));
         }
 
         private int countBags(Bag checkBag)
