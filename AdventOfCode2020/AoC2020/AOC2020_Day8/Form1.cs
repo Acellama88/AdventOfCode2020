@@ -18,7 +18,7 @@ namespace AOC2020_Day8
         int acc;
         public Form1()
         {
-            StreamReader input = new StreamReader("programinput.txt");
+            StreamReader input = new StreamReader("input.txt");
             lines = input.ReadToEnd().Split(new char[] { '\r', '\n' }, StringSplitOptions.RemoveEmptyEntries);
             InitializeComponent();
 
